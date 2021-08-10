@@ -1,0 +1,43 @@
+.coursesContainer{
+    margin-top:1rem;
+    padding-bottom:2rem;
+}
+
+.coursesContainer__title{
+    color:var(--title);
+    font-size:.8rem;
+}
+
+.coursesContainer__line{
+    color:var(--line);
+    margin:5px 0;
+}
+
+.coursesContainer__contList{
+    list-style:url('../../../../public/check.png');
+}
+
+.coursesContainer__list{
+    font-size:.8rem;
+    color:var(--text);
+    margin-bottom:.2rem;
+    list-style-position: inside;
+
+}
+
+@media(min-width:1024px){
+
+    .coursesContainer{
+        margin-top:2rem;
+        padding-bottom:4rem;
+    }
+
+    .coursesContainer__title{
+        font-size:1.3rem;
+    }
+
+    .coursesContainer__list{
+        font-size:1rem;
+    }
+
+}

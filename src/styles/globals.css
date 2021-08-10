@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+:root{
+  --maxWidth:1250px;
+  --title:#8257e5;
+  --text:gray;
+  --mt:1rem;
+  --line:#8257e5
+}

@@ -1,0 +1,37 @@
+.objectiveContainer{
+    margin-top:1rem;
+}
+
+.objectiveContainer__title{
+    color:var(--title);
+    font-size:.8rem;
+}
+
+.objectiveContainer__line{
+    color:var(--line);
+    margin:5px 0;
+}
+
+.objectiveContainer__text{
+    font-size:.8rem;
+    color:gray;
+}
+
+
+
+
+@media(min-width:1024px){
+
+    .objectiveContainer{
+        margin-top:2rem;
+    }
+
+    .objectiveContainer__title{
+        font-size:1.3rem;
+
+    }
+
+    .objectiveContainer__text{
+        font-size:1rem;
+    }
+}

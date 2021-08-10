@@ -1,0 +1,57 @@
+.profContainer{
+    margin-top:1rem;
+}
+
+.profContainer__title{
+    color:var(--title);
+    font-size:.8rem;
+}
+
+.profContainer__line{
+    color:var(--line);
+    margin:5px 0;
+}
+
+.profContainer__jobTitle{
+    color:var(--text);
+    font-size:.8rem;
+}
+
+.profContainer__occupancy{
+    color:var(--text);
+    font-size:.8rem;
+    margin-top:.4rem;
+}
+
+.profContainer__description{
+    color:var(--text);
+    font-size:.8rem;
+    margin-top:.4rem;
+    line-height:1rem;
+}
+
+
+@media(min-width:1024px){
+
+    .profContainer{
+        margin-top:2rem;
+    }
+
+    .profContainer__title{
+        font-size:1.3rem;
+    }
+
+    .profContainer__jobTitle{
+        font-size:1.2rem;
+    }
+
+    .profContainer__occupancy{
+        font-size:1rem;
+    }
+    
+    .profContainer__description{
+        color:var(--text);
+        font-size:1rem;
+    }
+
+}

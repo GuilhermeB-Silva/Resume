@@ -1,0 +1,18 @@
+.contactContainer__title{
+    color:var(--title);
+    font-size:.8rem;
+}
+
+.contactContainer__line{
+    color:var(--line);
+    margin:5px 0;
+}
+
+
+@media(min-width:1024px){
+
+    .contactContainer__title{
+        font-size:1.3rem;
+    }
+
+}

@@ -1,0 +1,76 @@
+.headerContainer{
+    background:url("../../../public/code.jpg") 30% 79% /100% no-repeat;
+    width:100%;
+    height:9rem;
+}
+
+.headerContainer__centerContent{
+    width:90%;
+    height:100%;
+    padding: 1rem 0;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.headerContainer__avatar{
+    width:5rem;
+    height:5rem;
+}
+
+.headerContainer__avatarInfo{
+    display:block;
+    width:100%; 
+    font-size:.9rem;
+    align-self: center;
+    text-align: center;
+    color:white
+}
+
+@media(min-width:560px){
+    
+    .headerContainer__avatar{
+        width:7rem;
+        height:7rem;
+    }
+
+    .headerContainer__centerContent{
+        flex-direction:row;
+    }
+
+    .headerContainer__avatarInfo{
+        display:block;
+        width:100%; 
+        font-size:1.3rem;
+    }
+}
+
+@media(min-width:1024px){
+
+    .headerContainer{
+        background:url("../../../public/code.jpg") 30% 79%;
+        width:100%;
+        height:15rem;
+    }
+    
+    .headerContainer__centerContent{
+        max-width:var(---maxWidth);
+    }
+    
+    .headerContainer__avatar{
+        width:12rem;
+        height:12rem;
+    }
+    
+    .headerContainer__name{
+        font-size:3rem;
+    }
+    
+    .headerContainer__job{
+        font-size:1.5rem;
+    }
+
+ 
+}

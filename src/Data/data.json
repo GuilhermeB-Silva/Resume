@@ -1,0 +1,42 @@
+
+
+{
+    "contact":[
+        "guilherme.silva1992@gmail.com",
+        "https://github.com/GuilhermeB-Silva",
+        "https://www.linkedin.com/in/guilherme-silva-9425b0190",
+        "Guilherme Silva#1730",
+        "São Bernardo do Campo/SP"
+    ],
+    
+    "objective":["Desenvolvedor front-end jr."],
+
+    "educational":["Análise e Desenvolvimento de Sistemas – UNIP – concluído em 07/2020."],
+
+    "professionalExp":{
+        "title":"Paulicon Contábil Eireli EPP – 10/2012 a 06/2019",
+        "occupation":"Cargo: Assistente de Administração de Pessoal",
+        "description":"Principais Atividades: Admissão, afastamento, cálculo de férias, cálculo de folha de pagamento, contribuições, demissão, E-Social, emissão DCTF-Web, homologação, registro e atualização de CTPS e transmissão de SEFIP."
+    },
+
+    "skills":[
+        "Bootstrap",
+        "CSS",
+        "HTML",
+        "Javascript",
+        "Material-UI",
+        "Next JS",
+        "React",
+        "Responsividade",
+        "SASS",
+        "Tailwind CSS",
+        "Testes Unitários",
+        "Typescript"
+    ],
+    
+    "courses":[
+        "Inglês avançado",
+        "Rocketseat Launchbase (desenvolvimento de páginas web, servidor NodeJS, banco de dados e validação de usuários)",
+        "Rocketseat Ignite (React JS,Next JS,Chakra, SASS,Styled-Components)"
+    ]
+}
